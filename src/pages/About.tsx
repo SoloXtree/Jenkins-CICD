@@ -46,9 +46,10 @@ const About = () => (
           What We Do
         </h2>
         <div className="grid sm:grid-cols-3 gap-6">
-          {[man
+          {[
             { title: "Social Media Marketing", desc: "We craft and execute social media strategies to grow your brand across all major platforms." },
             { title: "Digital Marketing", desc: "Targeted promotion, engagement strategies, and growth campaigns for your business." },
+            { title: "Bot Services", desc: "Custom automation bots for music, AI, moderation, and community management." },
           ].map((item) => (
             <div key={item.title} className="bg-card rounded-2xl p-6 border border-border">
               <h3 className="text-foreground font-bold text-lg mb-2">{item.title}</h3>

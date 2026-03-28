@@ -27,7 +27,7 @@ const Contact = () => (
             <span className="text-sm">(10AM–7PM IST)</span>
           </li>
           <li>
-            <span className="font-semibold text-foreground">Address:</span> 19 d2/1 indra nagar kudil road thuraiyur - 621010
+            <span className="font-semibold text-foreground">Address:</span> India
           </li>
           <li>
             <span className="font-semibold text-foreground">Country:</span> India
