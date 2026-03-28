@@ -36,11 +36,11 @@ const teamSlides = [
   },
 ];
 
-const bots = [
-  { name: "˹ᴍᴜꜱ𝖏ᴄ <♪> ᴠ𝖏ʙᴇ˼", subtitle: "Music Bot", link: "https://t.me/Music_vibing_bot" },
-  { name: "Sᴏʟᴏ Tʀᴇᴇ 𝗔𝗜", subtitle: "AI Bot", link: "https://t.me/SoloTree_Ai_bot" },
-  { name: "Sᴏʟᴏ Tʀᴇᴇ Mᴀɴᴀɢᴇʀ", subtitle: "Manager Bot", link: "https://t.me/Solo_Tree_bot" },
-];
+// const bots = [
+//   { name: "˹ᴍᴜꜱ𝖏ᴄ <♪> ᴠ𝖏ʙᴇ˼", subtitle: "Music Bot", link: "https://t.me/Music_vibing_bot" },
+//   { name: "Sᴏʟᴏ Tʀᴇᴇ 𝗔𝗜", subtitle: "AI Bot", link: "https://t.me/SoloTree_Ai_bot" },
+//   { name: "Sᴏʟᴏ Tʀᴇᴇ Mᴀɴᴀɢᴇʀ", subtitle: "Manager Bot", link: "https://t.me/Solo_Tree_bot" },
+// ];
 
 const services = [
   { title: "Social Media Marketing", desc: "Strategic campaigns across Instagram, Facebook, Twitter, and more to grow your brand." },
@@ -168,7 +168,7 @@ const Index = () => {
       </section>
 
       {/* Bots Section */}
-      <section className="gradient-container py-16">
+      {/* <section className="gradient-container py-16">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-black text-foreground text-center mb-4">
             Sᴏʟᴏ Tʀᴇᴇ Bᴏᴛs
@@ -192,7 +192,7 @@ const Index = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
