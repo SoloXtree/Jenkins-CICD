@@ -1,41 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Jenkins CI/CD Pipeline Project</title>
-<style>
-body{
-font-family: Arial;
-margin:40px;
-background:#f5f5f5;
-}
+<h2>⚙️ Using Tools </h2>
 
-.container{
-background:white;
-padding:30px;
-border-radius:10px;
-}
+<p align="center">
 
-h1{
-color:#222;
-}
+<!-- AWS -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="60" height="60"/>
 
-code{
-background:#eee;
-padding:5px;
-border-radius:5px;
-}
+<!-- Docker -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="60" height="60"/>
 
-pre{
-background:#111;
-color:#00ff9c;
-padding:15px;
-border-radius:8px;
-overflow:auto;
-}
-</style>
-</head>
+<!-- Jenkins -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="60" height="60"/>
 
-<body>
+<!-- Linux -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" height="60"/>
+
+<!-- Git -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" height="60"/>
+
+<!-- GitHub -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60"/>
+
+</p>
 
 <div class="container">
 
