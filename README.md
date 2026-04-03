@@ -87,7 +87,8 @@ Application Running
 <pre>
 AMI: Ubuntu
 Instance Type: t2.micro
-Security Ports:
+
+Security Ports
 
 22   SSH
 8080 Jenkins
@@ -105,17 +106,13 @@ sudo apt install docker.io -y
 
 <h2>Step 3 – Configure Jenkins Agent</h2>
 
-<p>
-Go to Jenkins dashboard and create a new node.
-</p>
+<p>Go to Jenkins dashboard and create a new node.</p>
 
 <pre>
 Manage Jenkins
 Manage Nodes
 New Node
 </pre>
-
-<p>Configuration:</p>
 
 <pre>
 Node Name: ec2-agent
@@ -125,21 +122,17 @@ Launch Method: SSH
 
 <h2>Step 4 – Configure GitHub Webhook</h2>
 
-<p>In GitHub repository:</p>
-
 <pre>
 Settings
 Webhooks
 Add Webhook
 </pre>
 
-<p>Webhook configuration:</p>
-
 <pre>
-Payload URL:
+Payload URL
 http://JENKINS-IP:8080/github-webhook/
 
-Content Type:
+Content Type
 application/json
 </pre>
 
