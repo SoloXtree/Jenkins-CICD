@@ -84,7 +84,7 @@ Security Ports
 
 <pre>
 sudo apt update
-sudo apt install openjdk-17-jdk -y
+sudo apt install openjdk-21-jdk -y
 sudo apt install nodejs npm -y
 sudo apt install docker.io -y
 </pre>
